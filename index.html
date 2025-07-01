@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>#GAMBERGE - À quoi ça sert, vraiment ?</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      background-color: #F0511D;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      text-align: center;
+    }
+
+    .sticker {
+      position: absolute;
+      background-color: white;
+      color: black;
+      font-weight: bold;
+      padding: 0.3em 0.8em;
+      border-radius: 5px;
+      font-size: 0.9rem;
+    }
+    .sticker1 { top: 10%; left: 10%; transform: rotate(-10deg); }
+    .sticker2 { top: 15%; right: 15%; transform: rotate(12deg); }
+    .sticker3 { bottom: 20%; left: 18%; transform: rotate(-5deg); }
+
+    .title {
+      font-size: 2.5em;
+      font-weight: bold;
+      margin-bottom: 0.2em;
+    }
+
+    .subtitle {
+      font-size: 1.2em;
+      color: #000;
+      margin-bottom: 1em;
+    }
+
+    .input-wrapper {
+      display: flex;
+      align-items: center;
+      background-color: white;
+      border-radius: 40px;
+      padding: 0.2em 0.5em;
+      width: 300px;
+    }
+
+    input[type="text"] {
+      flex: 1;
+      border: none;
+      outline: none;
+      padding: 0.8em;
+      font-size: 1em;
+      border-radius: 40px;
+    }
+
+    button {
+      background-color: black;
+      color: white;
+      border: none;
+      padding: 0.6em 1.2em;
+      border-radius: 30px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .footer {
+      position: absolute;
+      bottom: 0;
+      font-size: 0.8em;
+      background-color: black;
+      width: 100%;
+      color: white;
+      padding: 0.5em;
+    }
+  </style>
+</head>
+<body>
+  <div class="sticker sticker1">#GAMBERGE</div>
+  <div class="sticker sticker2">Utilité garantie 3%</div>
+  <div class="sticker sticker3">Validé par ton oncle chelou</div>
+
+  <div class="title">
+    À QUOI ÇA SERT, VRAIMENT ?
+  </div>
+  <div class="subtitle">
+    Tape un mot, on t'explique. Enfin, on va essayer.
+  </div>
+  <div class="input-wrapper">
+    <input type="text" placeholder="Quelque chose">
+    <button>GO</button>
+  </div>
+
+  <div class="footer">
+    Réponses générées par une intelligence artificielle. Ne pas prendre au premier degré.
+  </div>
+</body>
+</html>
